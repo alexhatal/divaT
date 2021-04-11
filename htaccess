@@ -1,0 +1,39 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page18463935.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^onas$ page18464071.html [NC]
+RewriteRule ^onas/$ page18464071.html [NC]
+
+RewriteRule ^sluzby$ page18464101.html [NC]
+RewriteRule ^sluzby/$ page18464101.html [NC]
+
+RewriteRule ^news$ page18464108.html [NC]
+RewriteRule ^news/$ page18464108.html [NC]
+
+RewriteRule ^kontakt$ page18464133.html [NC]
+RewriteRule ^kontakt/$ page18464133.html [NC]
+
+RewriteRule ^graphicdesign$ page18520972.html [NC]
+RewriteRule ^graphicdesign/$ page18520972.html [NC]
+
+RewriteRule ^firemniidentita$ page18520959.html [NC]
+RewriteRule ^firemniidentita/$ page18520959.html [NC]
+
+RewriteRule ^webdesign$ page18520942.html [NC]
+RewriteRule ^webdesign/$ page18520942.html [NC]
+
+RewriteRule ^logodesign$ page18520921.html [NC]
+RewriteRule ^logodesign/$ page18520921.html [NC]
+
+RewriteRule ^form$ page18554827.html [NC]
+RewriteRule ^form/$ page18554827.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild3335-3664-4439-b737-623239313531/favicon.ico [R=302,L]
+
