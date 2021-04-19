@@ -2,6 +2,8 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
+#foo-links { color: #ffffff;}
+
 #rec298325601 .t-menu__link-item{ 
     -webkit-transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out; 
     transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out;	}
