@@ -2,7 +2,13 @@ body{
     font-family: 'Quicksand', sans-serif;
 }
 
-#foo-links { color: #ffffff;}
+#foo-links { color: #ffffff;
+}
+
+#subheadline{
+    padding: 20px 0;
+
+}
 
 #rec298325601 .t-menu__link-item{ 
     -webkit-transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out; 
@@ -720,3 +726,9 @@ body{
         @media screen and (max-width: 959px){#rec298420502 .tn-elem[data-elem-id="1570628482849"]{top: 287px;left: calc(50% - 320px + 437px);}}
         @media screen and (max-width: 639px){#rec298420502 .tn-elem[data-elem-id="1570628482849"]{top: 298px;left: calc(50% - 240px + 324px);}}
         @media screen and (max-width: 479px){#rec298420502 .tn-elem[data-elem-id="1570628482849"]{top: 602px;left: calc(50% - 160px + 151px);}}
+
+
+
+/***********************************************
+***************** NEWS *************************
+***********************************************/
