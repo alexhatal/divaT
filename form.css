@@ -45,6 +45,7 @@ h3{
   font-size: 20px;
   font-weight: lighter;
   padding-bottom: 50px;
+  
 }
 
 .head-item{
@@ -186,7 +187,6 @@ and (max-device-width: 479px){
     width: 30%;
   }
   h2{
-    width: 80%;
     margin: 20px auto;
     font-size: 20px;
   }
@@ -208,11 +208,11 @@ and (max-device-width: 479px){
   }
   
   #text-fill{
-    width: 70vw;
+    width: 80%;
   }
   
   .form-control{
-    width: 70vw;
+    width: 80%;
   }
   
   }
@@ -228,7 +228,6 @@ and (max-device-width: 568px){
     width: 30%;
   }
   h2{
-    width: 80%;
     margin: 20px auto;
     font-size: 20px;
   }
@@ -250,11 +249,11 @@ and (max-device-width: 568px){
   }
   
   #text-fill{
-    width: 70vw;
+    width: 80%;
   }
   
   .form-control{
-    width: 70vw;
+    width: 80%;
   }
   
   }
@@ -264,7 +263,6 @@ and (min-device-width: 569px)
 and (max-device-width: 768px){
 
 h2{
-  width: 80%;
   margin: 20px auto;
   font-size: 30px;
 }
@@ -274,11 +272,12 @@ h2{
   }
 
 label{
+  padding-left: 25px;
   font-size: 20px;
 }
 
 .form{
-margin-left: 100px;
+margin-left: 40px;
 }
 
 textarea{
@@ -286,11 +285,11 @@ textarea{
 }
 
 #text-fill{
-  width: 30vw;
+  width: 80%;
 }
 
 .form-control{
-  width: 45vw;
+  width: 80%  ;
 }
 
 }
@@ -301,7 +300,6 @@ and (min-device-width: 769px)
 and (max-device-width: 991px){
 
 h2{
-  width: 80%;
   margin: 20px auto;
   font-size: 30px;
 }
@@ -311,6 +309,7 @@ h2{
   }
 
 label{
+  padding-left: 25px;
   font-size: 20px;
 }
 
